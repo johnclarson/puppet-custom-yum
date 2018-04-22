@@ -1,4 +1,4 @@
-class yum {
+class customyum {
     if $custom_yum == "true" {
 
         exec { 'yum-config-manager --disable base':
