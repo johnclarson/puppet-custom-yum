@@ -1,0 +1,12 @@
+{
+  "Gemfile": "0b0ef34a57239868636b26141342423f",
+  "README.md": "b86be0802ca54ec9d98d43bfe64088c4",
+  "Rakefile": "158b889261acd98356f6e0f2a031b6b9",
+  "examples/init.pp": "5816df44be243ad9355e9fc6b770a3e0",
+  "manifests/init.pp": "822358d1477f95baf627b73c2de5c285",
+  "metadata.json": "bef8c375c30ea501d3901ab76b5b2ec9",
+  "spec/classes/init_spec.rb": "e900bad799e0edf6164c086fb90a5578",
+  "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+  "templates/custom-centos-base.erb": "337c8bfa443379c8094f6cc69829823c",
+  "templates/custom-centos-updates.erb": "4ab8cca1c99485962f35a399340b44ef"
+}

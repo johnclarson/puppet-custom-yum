@@ -1,0 +1,17 @@
+{
+  "name": "johnclarson-customyum",
+  "version": "0.1.1",
+  "author": "johnclarson",
+  "summary": "Disable commercial yum repos and build custom ones",
+  "license": "Apache-2.0",
+  "source": "https://github.com/johnclarson/puppet-custom-yum.git",
+  "project_page": "https://github.com/johnclarson/puppet-custom-yum",
+  "issues_url": "https://github.com/johnclarson/puppet-custom-yum/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "data_provider": null
+}
