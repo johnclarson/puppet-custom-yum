@@ -1,0 +1,11 @@
+[custom-centos-updates]
+name=custom-centos-updates
+baseurl=<%= @custom_centos_updates_url %>
+enabled=1
+<% if @custom_centos_gpgkey != "" -%>
+gpgcheck=1
+gpgkey=<%= @custom_centos_gpgkey %>
+<% else -%>
+gpgcheck=0
+<% end -%>
+
