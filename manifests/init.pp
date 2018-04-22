@@ -49,7 +49,7 @@ class customyum {
 
         file { '/etc/yum.repos.d/custom-centos-base.repo':
             ensure  => 'file',
-            content => template("yum/custom-centos-base.erb")
+            content => template("customyum/custom-centos-base.erb")
         }
     }
 
@@ -57,7 +57,7 @@ class customyum {
 
         file { '/etc/yum.repos.d/custom-centos-updates.repo':
             ensure  => 'file',
-            content => template("yum/custom-centos-updates.erb")
+            content => template("customyum/custom-centos-updates.erb")
         }
     }
 
